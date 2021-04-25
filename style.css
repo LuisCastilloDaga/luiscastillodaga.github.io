@@ -14,22 +14,29 @@ h1, footer p{
 h2, main-content p{
     color: var(--paragraph-color);
 }
+p, .update{
+    font-family: var(--body-font);
+    font-size: 18px;
+}
 
-html {
+body {
   background-color: var(--primary-color);
+  margin: 0px;
+  padding: 0px;
 }
 
 .content{
     width:100%;
-    margin: 0 auto;
+    margin: 0px;
     display: grid;
-    grid-template: 220px 1fr 220px/100%;
+    grid-template: 150px 80% 100px/100%;
 }
 
 header{
     grid-area: 1/1/2/2;
     width: 100%;
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
+    
 }
 
 .main-content{
@@ -41,4 +48,39 @@ footer{
     grid-area: 3/1/4/2;
     width: 100%;
     background-color: var(--secondary-color)
+}
+
+.content h1{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 50px;
+}
+
+.main-content{
+    padding: 33px;
+
+}
+
+.main-content h2{
+    line-height: 1;
+    font-size: 30px;
+}
+
+.myPhoto{
+    width: 250px;
+    box-shadow: 25px 5px 50px #00000033;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top:30px;
+    left:70%;
+    
+}
+#update{
+    font-family: var(--body-font);
+    font-size: 18px;
+    color: var(--primary-color);
+}
+footer{
+    text-align: center;
 }
