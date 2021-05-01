@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;900&display=swap');
+
 :root {
   --primary-color: rgb(168, 191, 212);
   --secondary-color: #2C6782;
   --heading-color: white;
   --paragraph-color: #2C6782;
 
-  --heading-font: "Source Sans Pro";
-  --body-font: Roboto;
+  --heading-font: "Acme", sans-serif;
+  --body-font: "Nunito", sans-serif;
 }
 h1, footer p{
     color: var(--heading-color);
