@@ -80,7 +80,7 @@ footer{
     
 }
 img{
-    width: 100%;
+    width: 100% !important;
 }
 #update{
     font-family: var(--body-font);
