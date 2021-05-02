@@ -70,7 +70,7 @@ footer{
 }
 
 .myPhoto{
-    width: 100%;
+    width: 250px;
     box-shadow: 25px 5px 50px #00000033;
     border-radius: 20px;
     overflow: hidden;
@@ -78,6 +78,9 @@ footer{
     top:30px;
     left:70%;
     
+}
+.myPhoto img{
+    width: 100%;
 }
 #update{
     font-family: var(--body-font);
