@@ -8,6 +8,9 @@
   --heading-font: "Acme", sans-serif;
   --body-font: "Nunito", sans-serif;
 }
+h1, h2{
+    font-family: var(--heading-font);
+}
 h1, footer p{
     color: var(--heading-color);
 }
