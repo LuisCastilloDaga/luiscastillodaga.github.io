@@ -70,7 +70,7 @@ footer{
 }
 
 .myPhoto{
-    width: 250px;
+    width: 100%;
     box-shadow: 25px 5px 50px #00000033;
     border-radius: 20px;
     overflow: hidden;
