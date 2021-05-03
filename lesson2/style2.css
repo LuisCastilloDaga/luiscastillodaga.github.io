@@ -76,3 +76,15 @@ footer{
     position: center;
 }
 
+.content img{
+    width: 100% !important;
+}
+
+
+@media (max-width:740px){
+    
+}
+
+@media (max-width:400px){
+
+}
