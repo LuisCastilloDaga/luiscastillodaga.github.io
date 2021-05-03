@@ -76,17 +76,3 @@ footer{
     position: center;
 }
 
-.img-1{
-    background-image: url(lesson2/dude_mobile.png)
-}
-.img-2{
-    background-image: url(lesson2/moderemote_mobile.png)
-}
-.img-3{
-    background-image: url(lesson2/latam_mobile.png)
-}
-.img-mobile{
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-}
