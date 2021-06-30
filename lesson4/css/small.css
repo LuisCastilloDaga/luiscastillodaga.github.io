@@ -76,7 +76,7 @@ main h2{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/Users/eduardoygrecia/Desktop/luiscastillodaga.github.io/lesson4/images/back.png);
+    background-image: url(https://luiscastillodag.github.io/lesson4/images/back.png);
 }
 .sumary{
     display: none;
