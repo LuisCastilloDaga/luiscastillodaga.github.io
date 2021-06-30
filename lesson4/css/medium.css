@@ -1,0 +1,31 @@
+@media only screen and (min-width: 35em) {
+    footer{
+        display: grid;
+        grid-template: 1fr / 50% 50%;
+    }
+    .map-footer{
+        display: none;
+    }
+    .map{
+        display: grid;
+        grid-area: 1 1 2 2;
+        align-self: center;
+    }
+    .map img{
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    .contact-info{
+        grid-area: 1 2 2 3;
+        padding-left: 50px;
+    }
+    .social-links{
+        display: block;
+    }
+    .social-links li{
+        float: left;
+        margin: 0 20px 0 0;
+        font-size: 30px;
+    }
+}

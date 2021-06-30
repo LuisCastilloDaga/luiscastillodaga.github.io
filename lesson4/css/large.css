@@ -1,0 +1,23 @@
+@media only screen and (min-width: 64rem) {
+    .head{
+        display: grid;
+        grid-template: 120px /70% 30% !important;
+        
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide, nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    nav ul li {
+        flex: auto;
+    }
+    nav ul li a {
+        border: 1px solid rgba(0, 0, 0, .3);
+        padding: .6rem 1rem;
+        text-align: center;
+    }
+    
+}

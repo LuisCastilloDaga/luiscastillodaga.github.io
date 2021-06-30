@@ -28,6 +28,7 @@ body{
     grid-area: 1 1 2 2;
     align-self: center;
     justify-self: start;
+    background-size: ;
 }
 nav{
     grid-area: 1 2 2 3;
